@@ -1,0 +1,13 @@
+alfabeto: a, b
+estados: q1, q2, q3, q4
+estado inicial: q1
+estado final: q3
+transições:
+q1, q1, a
+q1, q2, b
+q2, q1, a
+q2, q3, b
+q3, q3, a
+q3, q4, b
+q4, q1, a
+q4, q3, b
